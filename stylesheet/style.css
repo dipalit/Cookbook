@@ -8,10 +8,8 @@ body {
   header {
     color: #FCF8DF;
     text-align:center;
-    padding: 20px;
-  
+    padding: 20px;  
   }
-
   p {
     color: #2E1508;
     font-family: 'Merriweather', 'Open Sans';
@@ -75,8 +73,10 @@ body {
   }
 
   .footer {
+    display: flex;
+    justify-content: space-around;
     background-color: #2E1508;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     color:  #FCF8DF;
   }
