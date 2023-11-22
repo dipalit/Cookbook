@@ -1,19 +1,19 @@
 body {
     background-color: #FCF8DF;
     font-family: 'Merriweather', 'Open Sans';
-    font-size: 16 px;
+    font-size: 16px;
     text-align: center;
   }
   
   header {
     color: #FCF8DF;
     text-align: center;
-    padding: 30 px;  
+    padding: 30px;  
   }
   p {
     color: #2E1508;
     font-family: 'Merriweather', 'Open Sans';
-    font-size: 16 px;
+    font-size: 16px;
     text-align: center;}
 
   .logo {
@@ -21,7 +21,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    font-size: 20 px;
+    font-size: 20px;
    
   }
   .header nav {
@@ -29,7 +29,7 @@ body {
     justify-content: space-around;
     background-color: #2E1508;
     text-align: center;
-    padding: 30 px;
+    padding: 30px;
     
   }
   
@@ -57,15 +57,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20 px;
-    padding: 20 px;
+    gap: 20px;
+    padding: 20px;
 }
 
 #gallery-image {
     width: 30 %; /* Adjust based on desired size */
     height: auto;
-    border-radius: 10 px; /* Optional: for rounded corners */
-    box-shadow: 0 4 px 8 px rgba(0, 0, 0, 0.1); /* Optional: for adding a subtle shadow */
+    border-radius: 10px; /* Optional: for rounded corners */
+    box-shadow: 0 4px 8 px rgba(0, 0, 0, 0.1); /* Optional: for adding a subtle shadow */
 }
   main {
     padding: 4 rem;
@@ -75,6 +75,6 @@ body {
   footer {
     background-color: #2E1508;
     text-align: center;
-    padding: 30 px;
+    padding: 30px;
     color:  #FCF8DF;
   }
