@@ -38,12 +38,12 @@ body {
     list-style-type: none;
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 20 px;
   }
   
   .header nav li {
     display: inline-block;
-    margin-right: 25 px;
+    margin-right: 20 px;
   }
   
   .header nav a {
