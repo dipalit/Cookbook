@@ -1,8 +1,9 @@
 body {
-    background-color: #FCF8DF;
-    font-family: 'Merriweather', 'Open Sans';
+   background-color: #FCF8DF; /* Light and neutral background */
+    font-family: 'Merriweather', 'Open Sans', sans-serif;
     font-size: 16px;
     text-align: center;
+    color: #2E1508; /* Dark brown for text for readability */
   }
   header {
     color: #FCF8DF;
@@ -21,17 +22,12 @@ body {
   .header nav {
     background-color: #2E1508;
     text-align: center;
-    padding: 10px;
-    margin: 10px;
-    width: auto;
-    height: auto;
+    overflow: hidden;
   }
   .header nav ul {
     display: inline-block;
     margin: 0;
-    padding: 20 px;
-    width: auto;
-    height: auto;
+    padding: 0;
   }
   .header nav li {
     display: inline-block;
