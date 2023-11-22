@@ -16,7 +16,9 @@ body {
     color: #2E1508;
     font-family: 'Merriweather', 'Open Sans';
     font-size: 16px;
-    text-align: center;}
+    text-align: center;
+  }
+
   .logo {
     display: flex;
     justify-content: space-between;
@@ -41,16 +43,22 @@ body {
     display: flex;
     margin: 0;
     padding: 20 px;
+    width: auto;
+    height: auto;
   }
   
   .header nav li {
     display: inline-block;
     margin-right: 20 px;
+    width: auto;
+    height: auto;
   }
   
   .header nav a {
     color: #FCF8DF;
     text-decoration: none;
+    width: auto;
+    height: auto;
     
   }
   .header ul {
