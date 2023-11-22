@@ -27,6 +27,7 @@ body {
     height: auto;
   }
   .header nav ul {
+    display: inline-block;
     margin: 0;
     padding: 20 px;
     width: auto;
