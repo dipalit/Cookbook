@@ -1,46 +1,80 @@
 body {
     background-color: #FCF8DF;
     font-family: 'Merriweather', 'Open Sans';
+    font-size: 16px;
+    text-align: center;
   }
   
-  .header {
+  header {
     color: #FCF8DF;
     text-align:center;
-    padding: 50px;
-    
+    padding: 20px;
+  
+  }
+
+  p {
+    color: #2E1508;
+    font-family: 'Merriweather', 'Open Sans';
+    font-size: 16px;
+    text-align: center;}
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    font-size: 20px;
+   
   }
   .header nav {
+    display: flex;
+    justify-content: space-around;
     background-color: #2E1508;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     
   }
   
   .header nav ul {
     list-style-type: none;
+    display: flex;
     margin: 0;
     padding: 0;
   }
   
   .header nav li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 25px;
   }
   
   .header nav a {
-    text-decoration: none;
     color: #FCF8DF;
+    text-decoration: none;
+    
   }
   .header ul {
     display: inline-block;
   }
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
 
+.gallery-image {
+    width: 30%; /* Adjust based on desired size */
+    height: auto;
+    border-radius: 10px; /* Optional: for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: for adding a subtle shadow */
+}
   main {
     padding: 4rem;
     text-align: center;
   }
-  
  
+  
 
   .footer {
     background-color: #2E1508;
