@@ -26,12 +26,9 @@ body {
     padding: 20px;
     width: auto;
     height: auto;
-    
   }
   
   .header nav ul {
-    list-style-type: none;
-    display: flex;
     margin: 0;
     padding: 20 px;
     width: auto;
