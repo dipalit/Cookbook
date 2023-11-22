@@ -72,11 +72,11 @@ body {
     text-align: center;
   }
 
-  .footer {
+  footer {
     display: flex;
     justify-content: space-around;
     background-color: #2E1508;
     text-align: center;
-    padding: 20px;
+    padding: 20 px;
     color:  #FCF8DF;
   }
