@@ -1,0 +1,50 @@
+body {
+    background-color: #FCF8DF;
+    font-family: 'Merriweather', 'Open Sans';
+  }
+  
+  .header {
+    color: #FCF8DF;
+    text-align:center;
+    padding: 50px;
+    
+  }
+  .header nav {
+    background-color: #2E1508;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .header nav a {
+    text-decoration: none;
+    color: #FCF8DF;
+  }
+  .header ul {
+    display: inline-block;
+  }
+
+  main {
+    padding: 4rem;
+    text-align: center;
+  }
+  
+ 
+
+  .footer {
+    background-color: #2E1508;
+    text-align: center;
+    padding: 10px;
+    color: #FCF8DF;
+  }
